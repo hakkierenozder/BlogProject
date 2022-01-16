@@ -129,12 +129,12 @@ namespace BlogProject.Data.Migrations
             migrationBuilder.InsertData(
                 table: "Posts",
                 columns: new[] { "Id", "CategoryId", "Content", "CreatedAt", "PublishedAt", "Title", "UserId" },
-                values: new object[] { 1, 1, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae molestie mi, id tincidunt ex. Phasellus cursus condimentum tempus. Ut et blandit ligula, a ultrices.", new DateTime(2022, 1, 15, 12, 4, 5, 605, DateTimeKind.Local).AddTicks(9826), new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "2021 yılının En İyi Filmleri", 1 });
+                values: new object[] { 1, 1, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae molestie mi, id tincidunt ex. Phasellus cursus condimentum tempus. Ut et blandit ligula, a ultrices.", new DateTime(2022, 1, 15, 15, 29, 34, 998, DateTimeKind.Local).AddTicks(3377), new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "2021 yılının En İyi Filmleri", 1 });
 
             migrationBuilder.InsertData(
                 table: "Comments",
                 columns: new[] { "Id", "Content", "CreatedByName", "PostId", "PublishedAt", "Title" },
-                values: new object[] { 1, "Bemce em iyi film o değil", "DerdoReyiz", 1, new DateTime(2022, 1, 15, 12, 4, 5, 611, DateTimeKind.Local).AddTicks(5598), "Yorum 1" });
+                values: new object[] { 1, "Bemce em iyi film o değil", "DerdoReyiz", 1, new DateTime(2022, 1, 15, 15, 29, 35, 4, DateTimeKind.Local).AddTicks(5058), "Yorum 1" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Comments_PostId",

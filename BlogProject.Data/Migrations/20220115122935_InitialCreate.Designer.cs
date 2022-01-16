@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BlogProject.Data.Migrations
 {
     [DbContext(typeof(BlogContext))]
-    [Migration("20220115090406_InitialCreate")]
+    [Migration("20220115122935_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -85,7 +85,7 @@ namespace BlogProject.Data.Migrations
                             Content = "Bemce em iyi film o değil",
                             CreatedByName = "DerdoReyiz",
                             PostId = 1,
-                            PublishedAt = new DateTime(2022, 1, 15, 12, 4, 5, 611, DateTimeKind.Local).AddTicks(5598),
+                            PublishedAt = new DateTime(2022, 1, 15, 15, 29, 35, 4, DateTimeKind.Local).AddTicks(5058),
                             Title = "Yorum 1"
                         });
                 });
@@ -131,7 +131,7 @@ namespace BlogProject.Data.Migrations
                             Id = 1,
                             CategoryId = 1,
                             Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae molestie mi, id tincidunt ex. Phasellus cursus condimentum tempus. Ut et blandit ligula, a ultrices.",
-                            CreatedAt = new DateTime(2022, 1, 15, 12, 4, 5, 605, DateTimeKind.Local).AddTicks(9826),
+                            CreatedAt = new DateTime(2022, 1, 15, 15, 29, 34, 998, DateTimeKind.Local).AddTicks(3377),
                             PublishedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "2021 yılının En İyi Filmleri",
                             UserId = 1
