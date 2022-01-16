@@ -4,4 +4,11 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BlogProject.API\BlogProject.API.csproj" />
+    <ProjectReference Include="..\BlogProject.Data\BlogProject.Data.csproj" />
+    <ProjectReference Include="..\BlogProject.Entities\BlogProject.Entities.csproj" />
+    <ProjectReference Include="..\BlogProject.Shared\BlogProject.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
